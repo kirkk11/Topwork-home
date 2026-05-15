@@ -1,0 +1,21 @@
+import math
+
+price = float(input("Сколько стоит одна конфета? "))
+candy = int(input("Сколько конфет ты хочешь купить? "))
+grams = 25
+
+packages = math.ceil(candy / 5)
+print("Результат:")
+print("Одна конфета стоит", price)
+print("Количество" , candy)
+print("=======================")
+print("Общая стоимость " ,  price * candy , "руб")
+print("=======================")
+print("Общий вес" , grams *candy , "грамм") 
+print("=======================")
+print("Нужно пакетов", packages ) 
+
+print("=======================")
+print(math.ceil(float(candy) / 5))
+
+
